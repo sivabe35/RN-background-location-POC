@@ -1,0 +1,19 @@
+{
+  "name": "rn-background-location-poc",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "example:start": "cd example && npx react-native start",
+    "example:android": "cd example && npx react-native run-android",
+    "example:ios": "cd example && npx react-native run-ios"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.82.0"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6"
+  }
+}
